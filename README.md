@@ -1,4 +1,6 @@
-🚀 Velocity UI (UIVault)
+#🚀 Velocity UI (UIVault) AKA Orchestra UI - An AI-Generated Component Library
+
+
 Velocity UI is a high-fidelity component gallery built to demonstrate the power of "Generative UI" workflows. This project showcases how modern AI tools like v0 and Cursor can be orchestrated to build production-ready React interfaces at the speed of thought.
 
 🛠 The Tech Stack
