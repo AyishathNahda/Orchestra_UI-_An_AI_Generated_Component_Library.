@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Velocity UI (UIVault)
+Velocity UI is a high-fidelity component gallery built to demonstrate the power of "Generative UI" workflows. This project showcases how modern AI tools like v0 and Cursor can be orchestrated to build production-ready React interfaces at the speed of thought.
 
-## Getting Started
+🛠 The Tech Stack
+Framework: Next.js 15 (App Router)
 
-First, run the development server:
+Styling: Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Animations: Framer Motion
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+UI Components: Shadcn/UI & Radix UI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Icons: Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployment: Vercel
 
-## Learn More
+✨ Key Features
+Real-time Filtering: Interactive category filtering (Layout, Forms, Data) powered by React useState.
 
-To learn more about Next.js, take a look at the following resources:
+Bento-Grid Architecture: A responsive, modern grid layout designed for high-density information display.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Micro-Interactions: Hover states, smooth entrance animations, and glassmorphic effects using Framer Motion.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Orchestrated Workflow: Developed by converting AI-generated UI primitives into a cohesive, logically connected application.
 
-## Deploy on Vercel
+🤖 The AI Workflow (GenAI Focus)
+This project was built using a Human-in-the-loop AI workflow, which is a core focus of my approach to modern engineering:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Wireframing (v0): Used Vercel's v0 to prompt and iterate on complex UI primitives like the Bento Grid and Glassmorphic cards.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Orchestration (Cursor): Integrated independent components into a centralized Next.js application.
+
+Refinement (Human Logic): Manually debugged hydration errors, optimized file structures (consolidating src/app), and implemented the filtering logic that AI tools often struggle to connect across multiple components.
